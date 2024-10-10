@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header styles */
+header{
+    background-image: url('../images/developer.png'), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* Button style */
+.btn{
+    width: 95px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    border: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: "Open Sans", serif;
+
+}
+/* Nav Style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 35px;
+    font-family: "Open Sans", serif;
+}
+/* Colors */
+.hielight{
+  color: rgb(253, 110, 10);
+}
+
+.Dark-02{
+    color: rgb(71, 71, 71);
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Open Sans", serif;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+/* Banner Pfp */
+.pfp{
+    height: 600px;
+    width: 700px;
+    /* margin-top: 70px; */
+}
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greet{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 5%;    
+}
+
+.banner-title{
+color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 60px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.benner-content-pera{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
